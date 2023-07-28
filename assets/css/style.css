@@ -1,0 +1,579 @@
+:root {
+  --c_space: 13% 0;
+  --c_size: 25px;
+  --c_color: #ffad42de;
+  --c_color-2: #b78700e8;
+  --c_color-3: #000000ef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--c_color-3);
+  background-color: #d3d2d227;
+  box-sizing: inherit;
+}
+
+/*  repeating-linear-gradient(
+      -45deg,
+    var(--c_color-2) 0%,
+    var(--c_color-3) 100%) , */
+/* header style */
+.c_header {
+  height: 95vh;
+}
+
+.c_nav {
+  height: 15vh;
+}
+
+.c_bg {
+  /* background-color: var(--c_color); */
+  background-image: radial-gradient(at top right,
+      var(--c_color-2), #000000d3, var(--c_color-3)),
+    url(/assets/images/anambra-flagjpg.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.c_logo {
+  border-top: 1px solid white;
+}
+
+.c_small {
+  color: var(--c_color-2);
+  font-size: 15px;
+}
+.c_small-1 {
+  color: var(--c_color-2);
+  font-size: 16px;
+}
+
+.c_title {
+  width: fit-content;
+  padding-top: 1px;
+  border-top: 1px solid white;
+}
+
+.c_intro>h1 {
+  font-size: 4.95rem;
+}
+
+.c_description {
+  font-size: 20px;
+  line-height: 40px;
+  font-style: italic;
+}
+
+.c_image {
+  width: 80%;
+  margin: 0 auto;
+  background: red;
+}
+
+.c_img {
+  width: 100%;
+  object-fit: contain; 
+  overflow: hidden;
+}
+
+.c-img {
+  width: 60%;
+  border-radius: 10px / 30px;
+  object-fit: contain; 
+  padding: 30px 0;
+}
+
+.c_nav-list>a {
+  color: white;
+}
+
+.c_nav-list>a:hover {
+  color: var(--c_color);
+  border-bottom: 1px solid var(--c_color);
+}
+
+.c_debut>h2 {
+  font-size: 3.85rem;
+  font-weight: 700;
+}
+
+.c_debut {
+  padding: 10% 0;
+}
+
+.c_issues>h4 {
+  font-size: 2.075rem;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.c_debut-2 {
+  padding: 5% 0 10%;
+}
+
+.c_debut-3 {
+  padding: 0 0 10%;
+}
+
+.c_issues-2>p {
+  color: rgba(0, 0, 0, .78);
+}
+
+.c_about-content {
+  font-size: 2.5rem;
+  line-height: 1.35em;
+}
+
+.c_about>h6 {
+  font-size: 1rem;
+  line-height: 1.25em;
+  text-transform: uppercase;
+
+}
+
+.c_img-2 {
+  width: 80%;
+  object-position: center;
+}
+
+.c_about-list {
+  list-style-type: none;
+  color: white;
+}
+
+.c_image-2 {
+  width: 80%;
+  text-align: left;
+}
+
+.c_events {
+  padding-bottom: 6%;
+  position: relative;
+}
+
+.c_events>h6 {
+  font-size: 35px;
+}
+
+/* .c_events>h6::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 5px;
+  background: #191970;
+  right: 0;
+  top: 50%;
+  position: absolute;
+} */
+
+/* base style */
+.c_base>h1 {
+  font-size: 4.005rem;
+}
+
+.c_base-main {
+  padding: 10.5% 0;
+  background-image: radial-gradient(at top right,
+      var(--c_color-2), #000000d3, var(--c_color-3)),
+    url(/assets/images/anambra-flagjpg.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.c_btn {
+  width: 15%;
+  color: #fff;
+  background-color: var(--c_color-2);
+}
+
+.c_btn:hover {
+  color: var(--c_color-3);
+  background-color: transparent;
+  border-width: 1.8px;
+  border-style: solid;
+  border-image:
+    linear-gradient(85deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
+}
+
+/* base style */
+
+/* footer style */
+.c_footer-logo .c_title {
+  width: fit-content;
+  border-top: 1px solid var(--c_color-2);
+}
+
+.c_footer-logo .c_title h6 {
+  border-top: 1px solid var(--c_color-2);
+}
+
+.c_links:hover {
+  color: var(--c_color-3);
+}
+
+/* footer style */
+
+/* Video  */
+.event-video {
+  width: 49.9%;
+  height: 50vh;
+  border-image:
+    linear-gradient(185deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
+  border-width: 3px;
+  border-style: solid;
+  padding: 0;
+  box-shadow: 4px 4px 8px #00000081
+    /* box-shadow: 5px 8px 8px var(--c_color-3); */
+}
+
+iframe:active {
+  border-image:
+    linear-gradient(65deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
+}
+
+/* Video  */
+
+/* About page */
+.c_about-page-header {
+  height: 55vh;
+}
+
+/* .c_texts::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 5px;
+  background: #191970;
+  right: 0;
+  top: 50%;
+  position: absolute;
+} */
+
+.c_about-debut-2 {
+  padding: 5% 0;
+}
+
+.c-read {
+  width: 12%;
+  right: 3%;
+}
+
+.c_issues-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.c-events-img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/* About page */
+
+/* books page */
+.c_contain {
+  width: 100%;
+}
+
+.box-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.project {
+  width: 20%;
+}
+
+.project>a {
+  width: 50%;
+  padding: 12px 10px;
+  font-size: 14px;
+}
+
+.project>a:hover {
+  color: var(--c_color-3) !important;
+
+}
+
+.works {
+  padding: 5% 0;
+}
+
+.projects {
+  gap: 50px;
+  row-gap: 65px;
+  justify-content: center;
+}
+
+.c_view {
+  margin: 0 auto;
+}
+
+/* books page */
+
+/* miscelleaneous */
+.c_event {
+  justify-content: center;
+  gap: 40px;
+}
+
+.event {
+  width: 30%;
+}
+
+.c_shadow {
+  box-shadow: 4px 4px 8px #0000002d;
+}
+
+.m-custom {
+  margin-top: 80px;
+}
+
+/* Responsive Mobile phones */
+@media only screen and (max-width:539px) {
+  body {
+    text-align: center;
+  }
+
+  .c_nav-list {
+    display: none !important;
+  }
+
+  .c_img {
+    width: 48%;
+    margin-top: 45px;
+    object-position: center 10px;
+  }
+
+  .c_image {
+    text-align: center !important;
+    width: 100%;
+  }
+
+  .c_intro>h1 {
+    font-size: 2.075rem;
+  }
+
+  .c_intro {
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  .c_description {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .c_debut>h2 {
+    font-size: var(--c_size);
+  }
+
+  .c_debut {
+    padding: var(--c_space);
+  }
+
+  .c_debut-2 {
+    padding: var(--c_space);
+  }
+
+  .c_issues>h4 {
+    font-size: 20px;
+  }
+
+  .c_issues-2>h5 {
+    font-size: 18px;
+  }
+
+  .c_img-2 {
+    width: 50%;
+    object-position: center;
+  }
+
+  .c_about-content {
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 1.35em;
+  }
+
+  .c_about>h5 {
+    font-size: 1rem;
+  }
+
+  .c_about {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .c_about-image {
+    order: 2;
+  }
+
+  .c_image-2 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .c_base>h1 {
+    font-size: 2.05rem;
+  }
+
+  .c_btn {
+    width: 50%;
+    background-color: var(--c_color-2);
+  }
+
+  .c_footer-logo .c_title {
+    width: 42%;
+    margin: 0 auto;
+    padding-bottom: 8%;
+  }
+
+  .c_copr {
+    padding-left: 0px !important;
+  }
+
+  .c-read {
+    position: relative !important;
+    width: 45% !important;
+    margin: 0 auto;
+    right: 0% !important;
+  }
+
+  .event-video {
+    width: 100% !important;
+    /* height: 30vh; */
+    border-image:
+      linear-gradient(185deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
+    border-width: 3px;
+    border-style: solid;
+    padding: 0;
+    box-shadow: 5px 8px 8px var(--c_color-2);
+  }
+
+  .c_issues-img {
+    width: 80%;
+    /* height: 100%; */
+    overflow: hidden;
+  }
+
+  .c-events-img {
+    object-fit: contain;
+    width: 80%;
+    height: 100%;
+    /* z-index: -1; */
+  }
+
+  .project {
+    width: 100% !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .works {
+    padding: 0 16px !important;
+  }
+}
+
+/* Responsive Tablets */
+@media only screen and (max-width:915px) and (min-width:540px) {
+  body {
+    text-align: center;
+  }
+
+  .c_img {
+    width: 48%;
+    margin-top: 45px;
+    object-position: center 10px;
+  }
+
+  .c_image {
+    text-align: center !important;
+    width: 100%;
+  }
+
+  .c_intro>h1 {
+    font-size: 2.075rem;
+  }
+
+  .c_intro {
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  .c_description {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .c_nav-list {
+    display: none !important;
+  }
+
+  .c_about-image {
+    order: 2;
+  }
+
+  .c_base>h1 {
+    font-size: 2.05rem;
+  }
+
+  .c-read {
+    position: relative !important;
+    width: 45% !important;
+    margin: 0 auto;
+    right: 0% !important;
+  }
+
+  .c_btn{
+    width: 45% !important;
+    margin: 0 auto;
+  }
+
+  .c_img-2 {
+    width: 50%;
+    object-position: center;
+  }
+
+  .c_image-2 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .box-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+  }
+  
+  .project {
+    width: 40%;
+  }
+
+  .c_footer-logo .c_title {
+    width: 25.5%;
+    margin: 0 auto;
+    padding-bottom: 8%;
+  }
+
+  .c_copr {
+    padding-left: 0px !important;
+  }
+}
