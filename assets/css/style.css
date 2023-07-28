@@ -116,7 +116,7 @@ body {
 }
 
 .c_debut {
-  padding: 10% 0;
+  padding: 4% 0;
 }
 
 .c_issues>h4 {
@@ -150,8 +150,11 @@ body {
 }
 
 .c_img-2 {
-  width: 80%;
-  object-position: center;
+  width: 70%;
+  height: 100%;
+  border-top-left-radius: 10rem;
+  border-bottom-left-radius: 4rem;
+  object-fit: contain;
 }
 
 .c_about-list {
@@ -161,7 +164,7 @@ body {
 
 .c_image-2 {
   width: 80%;
-  text-align: left;
+  text-align: center;
 }
 
 .c_events {
@@ -170,7 +173,7 @@ body {
 }
 
 .c_events>h6 {
-  font-size: 35px;
+  font-size: 20px;
 }
 
 /* .c_events>h6::after {
@@ -269,7 +272,7 @@ iframe:active {
 } */
 
 .c_about-debut-2 {
-  padding: 5% 0;
+  padding: 2% 0;
 }
 
 .c-read {
@@ -303,6 +306,7 @@ iframe:active {
 
 .project {
   width: 20%;
+  height: fit-content;
 }
 
 .project>a {
