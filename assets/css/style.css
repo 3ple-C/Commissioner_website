@@ -116,6 +116,10 @@ body {
 }
 
 .c_debut {
+  padding: 10% 0;
+}
+
+.c_padding{
   padding: 4% 0;
 }
 
