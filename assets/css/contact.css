@@ -16,12 +16,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background: #00E5FF;
-    min-height: 100vh;
-}
 
-.wrapper{
+
+.wrapper {
     /* max-width: 850px; */
     margin: 10% 25px;
     background-color: #fff;
@@ -33,7 +30,7 @@ body{
     overflow: hidden;
 }
 
-.wrapper .form-left{
+.wrapper .form-left {
     background: var(--c_color-2);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -43,7 +40,7 @@ body{
     color: #fff;
 }
 
-.wrapper h2{
+.wrapper h2 {
     font-weight: 700;
     font-size: 25px;
     padding: 5px 0 0;
@@ -51,22 +48,22 @@ body{
     pointer-events: none;
 }
 
-.wrapper .form-left p{
+.wrapper .form-left p {
     font-size: 0.9rem;
     font-weight: 300;
     line-height: 1.5;
     pointer-events: none;
 }
 
-.wrapper .form-left .text{
+.wrapper .form-left .text {
     margin: 20px 0 25px;
 }
 
-.wrapper .form-left p span{
+.wrapper .form-left p span {
     font-weight: 700;
 }
 
-.wrapper .form-left input{
+.wrapper .form-left input {
     padding: 15px;
     background: #fff;
     border-top-left-radius: 5px;
@@ -82,21 +79,21 @@ body{
     outline: none;
 }
 
-.wrapper .form-left input:hover{
+.wrapper .form-left input:hover {
     background: transparent;
 }
 
-.wrapper .form-right{
+.wrapper .form-right {
     padding: 20px 40px;
     position: relative;
     width: 100%;
 }
 
-.wrapper .form-right h2{
+.wrapper .form-right h2 {
     color: var(--c_color-2);
 }
 
-.wrapper .form-right label{
+.wrapper .form-right label {
     font-weight: 600;
     font-size: 15px;
     color: #666;
@@ -104,7 +101,7 @@ body{
     margin-bottom: 8px;
 }
 
-.wrapper .form-right .input-field{
+.wrapper .form-right .input-field {
     width: 100%;
     padding: 10px 15px;
     border: 1px solid #e5e5e5;
@@ -114,7 +111,7 @@ body{
     color: #333;
 }
 
-.wrapper .form-right .input-field:focus{
+.wrapper .form-right .input-field:focus {
     border: 1px solid var(--c_color-2);
 }
 
@@ -178,13 +175,11 @@ body{
     height: 10px
 }
 
-.wrapper .register{
+.wrapper .register {
     padding: 12px;
     background: var(--c_color-2);
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 5px;
     width: 130px;
-    border: none;
+    border: 1px solid var(--c_color-2);
     margin: 6px 0 50px 0px;
     cursor: pointer;
     color: #fff;
@@ -192,46 +187,50 @@ body{
     font-size: 15px;
 }
 
-.wrapper .register:hover{
+.wrapper .register:hover {
     background: transparent;
-    color: var(--c_color-2);
-    border: 1px solid var(--c_color-2);
+    color: var(--c_color-3);
+    border-width: 1px;
+    border-style: solid;
+    border-image:
+        linear-gradient(85deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
 }
 
-.wrapper a{
+.wrapper a {
     text-decoration: none;
 }
 
 @media (max-width: 860.5px) {
-    .wrapper{
+    .wrapper {
         margin: 50px 5px;
     }
 }
 
 
-@media (max-width: 767.5px){
-    .wrapper{
+@media (max-width: 767.5px) {
+    .wrapper {
         flex-direction: column;
         margin: 30px 20px;
     }
 
-    .wrapper .form-left{
+    .wrapper .form-left {
         border-bottom-left-radius: 0px;
     }
 
-    
+
 }
 
 @media (max-width: 575px) {
 
-    .wrapper{
+    .wrapper {
         margin: 30px 15px;
     }
 
-    .wrapper .form-left{
+    .wrapper .form-left {
         padding: 25px;
     }
-    .wrapper .form-right{
+
+    .wrapper .form-right {
         padding: 25px;
     }
 }

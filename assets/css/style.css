@@ -103,6 +103,7 @@ body {
 
 .c_nav-list>a {
   color: white;
+  border-bottom: 1px hidden transparent;
 }
 
 .c_nav-list>a:hover {
@@ -214,7 +215,7 @@ body {
 .c_btn:hover {
   color: var(--c_color-3);
   background-color: transparent;
-  border-width: 1.8px;
+  border-width: 1px;
   border-style: solid;
   border-image:
     linear-gradient(85deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
