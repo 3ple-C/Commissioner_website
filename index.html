@@ -15,7 +15,14 @@
     <!--====== Bootstrap css ======-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
+    
+    <!--====== Dropdown css ======-->
+    <link rel="stylesheet" href="assets/css/dropdown.css">
+
+    <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--====== Font style CDN ======-->
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
 </head>
 
@@ -27,23 +34,52 @@
                 <h6 class="m-0 c_logo pt-1">The Commissioner</h6>
             </div>
             <ul class="d-flex gap-5 m-0 p-0 list-unstyled c_nav-list">
-                <a href="./index.html" class="py-3">
+                <a href="./index.html" class=" ">
                     <li>Home</li>
                 </a>
-                <a href="./about.html" class="py-3">
+                <a href="./about.html" class="">
                     <li>About</li>
                 </a>
-                <a href="./books.html" class="py-3">
+                <a href="./books.html" class="">
                     <li>Academic Works</li>
                 </a>
-                <a href="" class="py-3">
+                <a href="" class="">
                     <li>Endorsemsnts/Awards</li>
                 </a>
-                <a href="" class="py-3">
+                <a href="" class="">
                     <li>Events</li>
                 </a>
             </ul>
         </nav>
+
+
+        <input type="checkbox" id="toggle" class="input-toggler">
+        <label for="toggle" class="menu-toggler ">
+            <span class="menu-toggler-line"></span>
+            <span class="menu-toggler-line"></span>
+            <span class="menu-toggler-line"></span>
+        </label>
+
+
+        <aside class="sidebar">
+            <ul class="menu">
+                <a href="./index.html" class="menu-link ">
+                    <li>Home</li>
+                </a>
+                <a href="./about.html" class="menu-link">
+                    <li>About</li>
+                </a>
+                <a href="./books.html" class="menu-link">
+                    <li>Academic Works</li>
+                </a>
+                <a href="" class="menu-link">
+                    <li>Endorsemsnts/Awards</li>
+                </a>
+                <a href="" class="menu-link">
+                    <li>Events</li>
+                </a>
+            </ul>
+        </aside>
 
         <!-- main header -->
         <header class="container-fluid ">
@@ -101,7 +137,8 @@
 
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 p- c_issues">
                         <h4>
-                            There are many issues facing our education system, but as your honourable commissioner, I have identified several key priorities that I believe require immediate attention.</h4>
+                            There are many issues facing our education system, but as your honourable commissioner, I
+                            have identified several key priorities that I believe require immediate attention.</h4>
                     </div>
                 </div>
                 <hr class="mt-0 mb-5">
@@ -233,41 +270,7 @@
                 <iframe src="https://www.youtube.com/embed/kNoq5e6hkjo" frameborder="0" class="event-video"></iframe>
             </div>
 
-            <!-- <div class="row text-center c_shadow">
-                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-5  c_issues-2 rounded-bottom ">
-                    <div class="c_issues-img mb-0">
-                        <img src="assets/images/Award.jpeg" alt="events" class="img-fluid c-events-img">
-                    </div>
-                    <hr class="mb-3">
-                    <h5 class="mb-3 fw-bold c_small">Organizing community events to promote environmental awareness</h5>
-                    <p>Vivamus finibus, dolor id maximus rhoncus, massa est maximus magna, sit amet dapibus elit
-                        tellus.</p>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-5  c_issues-2 rounded-bottom ">
-                    <div class="c_issues-img mb-0">
-                        <img src="assets/images/Award.jpeg" alt="events" class="img-fluid c-events-img">
-                    </div>
-                    <hr class="mb-3">
-                    <h5 class="mb-3 fw-bold c_small">Organizing community events to promote environmental awareness</h5>
-                    <p>Vivamus finibus, dolor id maximus rhoncus, massa est maximus magna, sit amet dapibus elit
-                        tellus.</p>
-                </div>
-
-
-                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-5  c_issues-2 rounded-bottom ">
-                    <div class="c_issues-img mb-0">
-                        <img src="assets/images/Award.jpeg" alt="events" class="img-fluid c-events-img">
-                    </div>
-                    <hr class="mb-3">
-                    <h5 class="mb-3 fw-bold c_small">Organizing community events to promote environmental awareness</h5>
-                    <p>Vivamus finibus, dolor id maximus rhoncus, massa est maximus magna, sit amet dapibus elit
-                        tellus.</p>
-                </div>
-            </div> -->
-
+           
             <div class=" text-center">
                 <div class="d-flex text-center projects c_event flex-wrap">
                     <div class="event project c_shadow pb- h-100 c_issues-2 rounded-bottom">
@@ -295,7 +298,7 @@
                     </div>
                 </div>
 
-                <a href="./about.html" class="c_hover py-3 c-view rounded-0 text-center c_btn btn mt-5">
+                <a href="./events.html" class="c_hover py-3 c-view rounded-0 text-center c_btn btn mt-5">
                     View More
                 </a>
 
@@ -350,7 +353,8 @@
                         <a href="https://www.linkedin.com/in/professor-ngozi-chuma-udeh-a998a534?originalSubdomain=ng">
                             <li class="c_small c_links">Linked In</li>
                         </a>
-                        <a href="https://www.facebook.com/anambraeducation/videos/prof-ngozi-chuma-udeh-gives-update-on-recruitment-interview-modalities/1478516645940507/">
+                        <a
+                            href="https://www.facebook.com/anambraeducation/videos/prof-ngozi-chuma-udeh-gives-update-on-recruitment-interview-modalities/1478516645940507/">
                             <li class="c_small c_links">Facebook</li>
                         </a>
                         <a href="">
@@ -368,7 +372,8 @@
 
                 <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                     <h6 class="mb-3 fw-bold">Office Address</h6>
-                    <p class="c_small mb-0">The office of the Commissioner Ministry of Education Anambra state, Nigeria.</p>
+                    <p class="c_small mb-0">The office of the Commissioner Ministry of Education Anambra state, Nigeria.
+                    </p>
                     <p class="c_small mb-0">555-537-8732</p>
                     <p class="c_small">contact@info.com</p>
                 </div>
