@@ -43,6 +43,7 @@ body {
 }
 
 .c_bg {
+  height: 100vh;
   /* background-color: var(--c_color); */
   background-image: radial-gradient(at top right,
       var(--c_color-2), #000000d3, var(--c_color-3)),
