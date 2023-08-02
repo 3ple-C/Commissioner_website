@@ -289,6 +289,16 @@ iframe:active {
   width: 12%;
   right: 3%;
 }
+.c-wiki {
+  font-size: 15px;
+}
+.c-wiki>a {
+  color: var(--c_color-2);
+}
+.c-wiki>a:hover {
+  color: var(--c_color-3);
+  border-bottom: 1px solid var(--c_color-2);
+}
 
 .c_issues-img {
   width: 100%;
@@ -316,7 +326,7 @@ iframe:active {
 
 .project {
   width: 20%;
-  height: fit-content;
+  max-height: fit-content;
 }
 
 .project>a {
