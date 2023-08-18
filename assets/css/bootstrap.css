@@ -3483,9 +3483,9 @@ textarea.form-control-lg {
   opacity: 0;
 }
 
-.collapse:not(.show) {
+/* .collapse:not(.show) {
   display: none;
-}
+} */
 
 .collapsing {
   height: 0;

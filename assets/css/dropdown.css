@@ -1,10 +1,11 @@
-* {
-    box-sizing: border-box;
-}
 .input-toggler {
     display: none;
 }
 .sidebar {
+    display: none;
+}
+
+.menu-toggler {
     display: none;
 }
 
