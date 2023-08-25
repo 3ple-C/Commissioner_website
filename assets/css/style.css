@@ -106,12 +106,6 @@ body {
   font-weight: 400;
 }
 
-/* .header-img-column {
-  width: 486px;
-  height: 671.227px;
-  background: url(../images/Subtract.png), transparent 50% / cover no-repeat;
-} */
-
 .header-img-box {
   display: block;
   width: 410px;
@@ -119,15 +113,28 @@ body {
   margin: 0 auto;
   background-color: var(--c_color-2);
   top: 34%;
-  /* transform: translate(-50%); */
-  /* animation: MoveUpDown 2s linear infinite alternate; */
 }
 
 .header-img {
   object-fit: cover;
   width: 85%;
 }
-
+.books-btn-box>.books-btn {
+  margin: 0 auto;
+  color: #FFF;
+  background: var(--c_color-2);
+}
+.books-btn-box{
+  padding-top: 185px;
+}
+.books-btn:hover {
+  color: var(--c_color-3);
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-image:
+    linear-gradient(85deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
+}
 .action-btn {
   display: flex;
   width: 230.39px;
@@ -336,10 +343,6 @@ body {
   /* 177.778% */
 }
 
-.picture-sections {
-  padding-top: 100px;
-}
-
 .event-section {
   padding: 100px 0;
 }
@@ -368,38 +371,6 @@ body {
   position: absolute;
 } */
 
-/* base style */
-.c_base>h1 {
-  font-size: 4.005rem;
-}
-
-.c_base-main {
-  padding: 10.5% 0;
-  background-image: radial-gradient(at top right,
-      var(--c_color-2), #000000d3, var(--c_color-3)),
-    url(/assets/images/anambra-flagjpg.jpg);
-  background-size: cover;
-  background-position: top;
-  position: relative;
-}
-
-.c_btn {
-  width: 15%;
-  color: #fff;
-  background-color: var(--c_color-2);
-}
-
-.c_btn:hover {
-  color: var(--c_color-3);
-  background-color: transparent;
-  border-width: 1px;
-  border-style: solid;
-  border-image:
-    linear-gradient(85deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
-}
-
-/* base style */
-
 /* footer style */
 .c_footer-logo .c_title {
   width: fit-content;
@@ -422,26 +393,6 @@ body {
 }
 
 /* footer style */
-
-/* Video  */
-.event-video {
-  width: 49.9%;
-  height: 50vh;
-  border-image:
-    linear-gradient(185deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
-  border-width: 3px;
-  border-style: solid;
-  padding: 0;
-  box-shadow: 4px 4px 8px #00000081
-    /* box-shadow: 5px 8px 8px var(--c_color-3); */
-}
-
-iframe:active {
-  border-image:
-    linear-gradient(65deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
-}
-
-/* Video  */
 
 /* About page */
 .c_about-page-header {
@@ -600,18 +551,19 @@ iframe:active {
   .c_nav-list {
     display: none !important;
   }
-
-  /* .c_img {
-    width: 48%;
-    margin-top: 45px;
-    object-position: center 10px;
-  } */
-
-  /* .c_image {
-    text-align: center !important;
-    width: 100%;
-  } */
-
+  .carousel {
+    margin-top: 60px !important;
+  }
+  .carousel__prev, .carousel__next {
+    font-size: 35px !important;
+    bottom: -12% !important;
+  }
+  .carousel__prev i, .carousel__next i{
+    font-size: 45px !important;
+  }
+  .books-btn-box{
+    padding-top: 105px !important;
+  }
   .c_intro>h1 {
     font-size: 2.03rem;
     line-height: normal;
@@ -639,8 +591,6 @@ iframe:active {
   .c_debut-2 {
     padding: var(--c_space);
   }
-
-
 
   .c_issues>h4 {
     font-size: 20px;
@@ -688,17 +638,6 @@ iframe:active {
     padding-left: 0px !important;
   }
 
-  .event-video {
-    width: 100% !important;
-    /* height: 30vh; */
-    border-image:
-      linear-gradient(185deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
-    border-width: 3px;
-    border-style: solid;
-    padding: 0;
-    box-shadow: 5px 8px 8px var(--c_color-2);
-  }
-
   .project {
     width: 100% !important;
     flex-wrap: nowrap !important;
@@ -740,7 +679,19 @@ iframe:active {
   .vision-content {
     order: 2;
   }
-
+  .carousel {
+    margin-top: 40px !important;
+  }
+  .carousel__prev, .carousel__next {
+    font-size: 35px !important;
+    bottom: -12% !important;
+  }
+  .carousel__prev i, .carousel__next i{
+    font-size: 45px !important;
+  }
+   .books-btn-box{
+    padding-top: 105px !important;
+  }
   .issue-title {
     justify-content: start;
     padding: 10px 0 0;
